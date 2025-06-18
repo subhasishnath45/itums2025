@@ -1,0 +1,130 @@
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+    right: 0;
+    border: solid 8px transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #a2a2a2 !important;
+    top: 50%;
+    margin-top: -8px;
+}
+div#wpcontent {
+    background: #a2a2a2;
+}
+div#wpcontent .error{
+    display: none !important;
+}
+.admin-footer{
+    color:#ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#footer-upgrade{
+    display: none !important;
+}
+.wdspromos {
+    display:none !important;
+}
+#adminmenu .wp-menu-image img {
+    filter: contrast(0) brightness(300);
+}
+.wpbc-listing-collumn .field-id span.label{
+    float: left;
+    width: 25px;
+}
+.wpbc-listing-collumn .label-pending,.wpbc-listing-collumn .label-approved{
+    float: left;
+    width: 100px !important;
+}
+.wpdevelop .label, .wpdevelop strong{
+    font-weight: 600;
+    float: left;
+    width: 50%;
+}
+.wpbc-listing-collumn .fieldvalue{
+    clear: right;
+    width: 50%;
+    float: left;
+}
+.wpbc_booking_form_structure.wpbc_form_right .wpbc_structure_calendar {
+    float: left;
+    margin-right: 0;
+    width: 50%;
+}
+.wpbc_booking_form_structure.wpbc_form_right .wpbc_structure_form {
+    float: left;
+    margin-top: -20px;
+    width: 50%;
+}
+.datepick-inline .date_approved {
+    background-color: #2290DD;
+    color: #ffffff;
+}
+
+.bk_calendar_frame.months_num_in_row_.cal_month_num_1.wpbc_timeslot_day_bg_as_available {
+    width: 90%;
+    margin: 0 5%;
+}
+.datepick-inline .date_approved {
+    background-color: #2290DD;
+    color: #ffffff;
+}
+
+.bk_calendar_frame.months_num_in_row_.cal_month_num_1.wpbc_timeslot_day_bg_as_available {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.datepick-inline .datepick-title-row th, .datepick-inline .datepick-days-cell {
+    padding: 25px;
+}
+.booking_form .form-group .controls select, .booking_form select, .booking_form textarea, .booking_form input[type="text"] {
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    min-height: auto;
+    padding: 5px 25px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;
+    border: 0px solid #f2f3f9;
+    border-radius: 35px;
+    -webkit-appearance: none;
+}
+.wpbc-payment-form .btn, .wpbc-payment-form .button, .booking_form_div .btn, .booking_form_div .button, .booking_form_div .submit, .booking_form_div .button-secondary {
+    color: #ffffff;
+    background-color: #ed1c94;
+    border-color: #ed1c94;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding: 9px 30px;
+    min-width: 210px;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    white-space: pre-wrap;
+}
+.bk_calendar_frame.months_num_in_row_.cal_month_num_1.wpbc_timeslot_day_bg_as_available + div {
+    display: none;
+}
+
+/*--Hiding PWA admin menu--*/
+
+#toplevel_page_superpwa{
+    display: none;
+}
+
+/*--Hiding PWA admin menu--*/
